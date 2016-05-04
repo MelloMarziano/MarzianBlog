@@ -1,0 +1,126 @@
+body{
+	overflow-y: hidden;
+	overflow-x: hidden;
+	background: #F9F9F9;
+}
+.menu{
+	
+	height: 90vh;
+	border-right: 1px solid #E5E5E5;
+}
+.principal{
+	background: #F9F9F9;
+	height: 85vh;
+	overflow-y:auto;
+	border:1px solid #DDD;
+	padding: 30px;
+}
+.arriba{
+	background: #F9F9F9;
+	border-bottom: 1px solid #648F00;
+	height: 64px;
+}
+.arriba1{
+	background: #F9F9F9;
+	border-bottom: 1px solid #648F00;
+	color: #000;
+}
+.pie{
+	color: #648F00;
+	height: 5vh;
+	margin-top: 10px;
+	background: #000;
+	text-align: center;
+}
+
+.boton{
+	margin-top: 10px;
+	height: 70px;
+	border:1px solid #648F00;
+	color: #000;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.letra{
+	letter-spacing: 4px;
+	font-size: 20px;
+	padding: 25px 10px;
+	text-align: center;
+}
+
+.botones{
+	padding-top: 70px;
+	display: none;
+}
+
+.boton:hover{
+	
+	background: #648F00;
+	box-shadow: 0px 0px 30px 0px #648F00;
+}
+.txtbox{
+	height: 48px;
+	padding: 20px;
+	font-family: Verdana;
+	color: blue;
+	background: #EBEED1;
+	margin-top: 5px;
+	width: 100px;
+	
+	
+	
+}
+.btnbuscar{
+	
+}
+
+.noticias{
+	margin-top: 20px;
+	height: 550px;
+	background: #F9F9F9;
+	padding: 20px;
+	display: none;
+}
+.articulos{
+	box-shadow: 0px 0px 10px 0px #ddd;
+	margin-top: 10px;
+	color: #656262;
+	background: #FFF;
+	padding: 20px 30px 20px 30px;
+	border-radius: 5px;
+}
+.articulos:hover{
+	box-shadow: 0px 0px 30px 0px #648F00;
+	border: 2px solid #648F00;
+}
+.articulos small{
+	color: slategray;
+}
+.imagen{
+	height: 250px;
+	width: 100%;
+}
+.hora{
+	color: yellowgreen;
+	font-size: 10px;
+}
+.color-nombre{
+	color: yellowgreen;
+}
+
+.lineashr{
+	border-style: dashed;
+	border-width: 1px;
+	border-color: #E5E5E5;
+}
+
+.contactar{
+	display: none;
+}
+.menuXS{
+	display: block;
+	text-decoration: none;
+	color: #000;
+	padding-top: 20px;
+}

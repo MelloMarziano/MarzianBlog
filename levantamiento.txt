@@ -1,0 +1,48 @@
+create database blog;
+use blog;
+
+create table usuario(
+	id int(11) primary key auto_increment not null,
+	nombre varchar(150),
+	apellido varchar(150),
+	telefono varchar (20),
+	correo varchar(50),
+	contraseña varchar(50)
+);
+
+create table categorias(
+	id int(11) primary key auto_increment not null,
+	categorias varchar(50) not null
+
+);
+
+create table entradas(
+	id_entrada int(11) primary key auto_increment not null,
+	id_categorias int(11),
+	titulo varchar(30) not null,
+	autor varchar(30) not null,
+	fecha varchar(100) not null,
+	foto varchar(150) not null,
+	mensaje varchar(5000) not null,
+	aceptar varchar(5) not null,
+	foreign key(id_categorias) references categorias(id)
+);
+
+create table comentario(
+	id int(11) primary key auto_increment not null,
+	id_entrada int(11) not null,
+	fecha varchar(100) not null,
+	nombre varchar(30) not null,
+	comentario varchar(500) not null,
+	foreign key(id_entrada) references entradas(id_entrada) on delete cascade on update cascade
+);
+
+create table correo(
+	id int(11) primary key auto_increment not null,
+	desde varchar(50) not null,
+	para varchar(50) not null,
+	fecha varchar(100) not null,
+	mensaje varchar(1000) not null
+);
+
+

@@ -1,0 +1,46 @@
+.paginacion{
+	margin-top: 30px;
+}
+.paginacion ul{
+	list-style: none;
+}
+
+.paginacion ul li{
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.paginacion ul .active a{
+	background: #CE7F08;
+	padding: 15px 25px;
+}
+
+.paginacion ul .disabled{
+	background: #C8C8C8;
+	display: inline-block;
+	font-family: Verdana;
+	padding: 15px 25px;
+	cursor: not-allowed;
+	color: #FFF;
+	text-decoration: none;
+}
+/*
+ul li{
+	padding: 15px 10px;
+	border-bottom: 1px solid #C8C8C8;
+	font-family: Verdana;
+}*/
+
+.paginacion ul li a{
+	display: inline-block;
+	font-family: Verdana;
+	padding: 15px 25px;
+	background: #424242;
+	color: #FFF;
+	text-decoration: none;
+}
+
+.paginacion ul li a:hover{
+	text-decoration: none;
+	background: #3299BB;
+}
